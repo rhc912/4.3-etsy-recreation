@@ -3,12 +3,90 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <title>4 3 etsy recreation</title>
+    <title>Etsy</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
   <body>
+    <div class="container">
+      <div class="wrapper">
 
-    <h1>Hello World!</h1>
+        <!-- Top Nav !-->
+        <div class="top-nav row">
+          <div class="col-xs-12">
+            <div class="logo"><img src="" alt="logo"></div>
+
+            <input id="task-name" placeholder="Search"><button id="search-site">Search</button>
+
+            <ul class="account-nav apply-nav-height">
+              <li class="sell-on-etsy-link">Sell on Etsy</li>
+              <li class="register-link">Register</li>
+              <li class="sign-in-link">Sign in</li>
+              <li class="cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Cart</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Secondary Nav !-->
+          <div id="nav-header-inner" class="body-max-width">
+            <nav class="catnav-primary col-xs-12">
+              <ul class="pl-xs-0">
+                <li>Clothing &amp; Accessories</li>
+                <li>Jewelry</li>
+                <li>Craft Supplies &amp; Tools</li>
+                <li>Weddings</li>
+                <li>Entertainment</li>
+                <li>Home &amp; Living</li>
+                <li>Kids &amp; Baby</li>
+                <li>Vintage</li>
+              </ul>
+          </nav>
+        </div>
+
+    <!-- Side Nav !-->
+    <div class="side-nav col-xs-3">
+        <h5 class="pb-xs-1-5">Show results for:</h5>
+        <ul class="categories">
+          <li class="categorie-list"><a href="#"><span>All Categories</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Clothing</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Paper & Party Supplies</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Home & Living</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Art & Collectibles</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Jewelry</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Accessories</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Bags & Purses</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Craft Supplies & Tools</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Electronics & Accessories</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Toys & Games</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Books, Movies & Music</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Pet Supplies</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Bath & Beauty</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Weddings</span></a></li>
+          <li class="categorie-list"><a href="#"><span>Shoes</span></a></li>
+        </ul>
+    </div>
+
+    <div class="js-products col-md-9">
+
+    </div>
+
+    </div><!--wrapper -->
+
+  <!-- Container !-->
+  </div>
+
+
+
+    <script id="entry-template" type="text/x-handlebars-template">
+      <div class="col-md-3">
+        <a class="product-tile">
+          <img src="{{Images.0.url_fullxfull}}" alt="{{title}}">
+          <div class="product-ds">
+            Product Tile
+          </div>
+          </a>
+      </div>
+  </script>
 
     <script src="js/bundle.js"></script>
   </body>

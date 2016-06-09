@@ -15,3 +15,29 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+//Navs
+.top-nav{
+  #task-name{
+    float: left;
+  }
+
+ul{
+  float: right;
+  display: inline-block;
+}
+li{
+
+  display: inline-block;
+}
+}
+
+.catnav-primary{
+
+  ul{
+    float: left;
+    display: inline-block;
+  }
+  li{
+    display: inline-block;
+  }
+}
